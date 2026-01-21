@@ -5,9 +5,25 @@ authors = []
 telemetry = false
 cache_dir = "./.cache"
 
-# [contracts.counter]
-# path = "contracts/counter.clar"
-# epoch = "latest"
+[contracts.loiters-errors]
+path = "contracts/loiters-errors.clar"
+epoch = "latest"
+
+[contracts.loiters-token]
+path = "contracts/loiters-token.clar"
+epoch = "latest"
+
+[contracts.loiters-core]
+path = "contracts/loiters-core.clar"
+epoch = "latest"
+
+[contracts.loiters-badges]
+path = "contracts/loiters-badges.clar"
+epoch = "latest"
+
+[contracts.loiters-communities]
+path = "contracts/loiters-communities.clar"
+epoch = "latest"
 
 [repl.analysis]
 passes = ["check_checker"]
