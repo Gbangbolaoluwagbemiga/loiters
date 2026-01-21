@@ -178,7 +178,7 @@
       longest-streak: u0,
       total-endorsements-received: u0,
       total-endorsements-given: u0,
-      joined-at: stacks-stacks-block-height,
+      joined-at: stacks-block-height,
       last-checkin: u0
     })
     
@@ -189,7 +189,7 @@
       type: "user-registered",
       user: tx-sender,
       username: username,
-      timestamp: stacks-stacks-block-height
+      timestamp: stacks-block-height
     })
     
     (ok true)
