@@ -118,10 +118,6 @@
   (ok (some (get metadata-uri (unwrap! (map-get? badge-data badge-id) ERR-NOT-FOUND))))
 )
 
-(define-read-only (get-token-uri (badge-id uint))
-  (ok (some (get metadata-uri (unwrap! (map-get? badge-data badge-id) ERR-NOT-FOUND))))
-)
-
 (define-read-only (get-owner (badge-id uint))
   (ok (nft-get-owner? loiters-badge badge-id))
 )
@@ -279,7 +275,7 @@
 )
 
 ;; Admin functions
-(define-public (set-base-uri (new-uri (string-utf8 256)))
+(define-public (set-base-uri (new-uri (string-ascii 256)))
   (begin
     (asserts! (is-eq tx-sender CONTRACT-OWNER) ERR-NOT-AUTHORIZED)
     (ok (var-set base-token-uri new-uri))
