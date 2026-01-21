@@ -179,7 +179,7 @@
     (map-set badge-data new-badge-id {
       badge-type: badge-type,
       owner: recipient,
-      earned-at: block-height,
+      earned-at: stacks-block-height,
       transferable: (get transferable badge-type-data),
       metadata-uri: metadata-uri
     })
@@ -195,7 +195,7 @@
       badge-id: new-badge-id,
       badge-type: badge-type,
       recipient: recipient,
-      timestamp: block-height
+      timestamp: stacks-block-height
     })
     
     (ok new-badge-id)
