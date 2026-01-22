@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import ReputationCard from "@/components/ReputationCard";
 
 export default function Home() {
   return (
@@ -7,7 +8,7 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
-        {/* Additional sections can be added here */}
+        <ReputationCard />
       </main>
 
       <footer className="border-t border-white/5 bg-black py-12">
