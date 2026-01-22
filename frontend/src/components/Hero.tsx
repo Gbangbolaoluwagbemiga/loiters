@@ -19,7 +19,7 @@ export default function Hero() {
                 <span className="inline-block rounded-full border border-blue-500/30 bg-blue-950/20 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-blue-400">
                     Built on Stacks
                 </span>
-                <h1 className="mt-6 bg-gradient-to-b from-white to-zinc-500 bg-clip-text text-5xl font-extrabold tracking-tight text-transparent sm:text-7xl">
+                <h1 className="mt-6 bg-linear-to-b from-white to-zinc-500 bg-clip-text text-5xl font-extrabold tracking-tight text-transparent sm:text-7xl">
                     Your Social Reputation,<br /> Anchored to Bitcoin.
                 </h1>
                 <p className="mx-auto mt-6 max-w-2xl text-lg text-zinc-400 sm:text-xl">
@@ -43,7 +43,7 @@ export default function Hero() {
                 transition={{ duration: 1, delay: 0.4 }}
                 className="mt-20 grid w-full max-w-5xl grid-cols-1 gap-6 sm:grid-cols-3"
             >
-                <div className="rounded-2xl border border-white/10 bg-white/5 p-8 transition-colors hover:bg-white/[0.08]">
+                <div className="rounded-2xl border border-white/10 bg-white/5 p-8 transition-colors hover:bg-white/8">
                     <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-blue-600/20 text-blue-500">
                         <MapPin size={24} />
                     </div>
@@ -53,7 +53,7 @@ export default function Hero() {
                     </p>
                 </div>
 
-                <div className="rounded-2xl border border-white/10 bg-white/5 p-8 transition-colors hover:bg-white/[0.08]">
+                <div className="rounded-2xl border border-white/10 bg-white/5 p-8 transition-colors hover:bg-white/8">
                     <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-purple-600/20 text-purple-500">
                         <ShieldCheck size={24} />
                     </div>
@@ -63,7 +63,7 @@ export default function Hero() {
                     </p>
                 </div>
 
-                <div className="rounded-2xl border border-white/10 bg-white/5 p-8 transition-colors hover:bg-white/[0.08]">
+                <div className="rounded-2xl border border-white/10 bg-white/5 p-8 transition-colors hover:bg-white/8">
                     <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-green-600/20 text-green-500">
                         <Trophy size={24} />
                     </div>
