@@ -5,7 +5,7 @@
 **Network**: Stacks Mainnet
 **Deployer**: `SP2QNSNKR3NRDWNTX0Q7R4T8WGBJ8RE8RA516AKZP`
 
-### Deployed Contracts (v2)
+### Deployed Contracts
 
 | Contract Name | Function |
 |--------------|----------|
